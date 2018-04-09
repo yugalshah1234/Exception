@@ -22,7 +22,7 @@ namespace log.loggly.com
 			}
 			catch (Exception ex)
 			{
-				logger.Error(ex.Message, ex);
+				logger.Error(ex.ToString(), ex);
 			}
 			Console.ReadKey();
 		}
